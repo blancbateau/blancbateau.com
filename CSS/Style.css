@@ -1,0 +1,104 @@
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-family: 'Canvas', 'Helvetica', 'Arial', monospace;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.35em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.30em;
+}
+
+h4 {
+    font-family: 'Canvas', 'Helvetica', 'Arial', monospace;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.3em;
+}
+
+footer {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.textfoot~.textfoot{
+    font-family: 'Spectral';
+    font-size: 0.89em;
+    line-height: 0.7em
+}
+
+.mCustomScrollbar {
+    /*border-radius:20px;*/
+    /*-ms-overflow-style: none;*/
+    /*IE 10+*/
+    /*  Firefox*/
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cover img{
+    width: 100%;
+}
+
+.fleche{
+    opacity: 0.7;
+    position: relative;
+    bottom: 20px;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+}
+
+#retour,
+#titre {
+
+    position: absolute;
+    font-size: 1em;
+}
+
+#retour {
+    right: 70%;
+    font-size: 1.1em;
+}
+
+#titre {
+    left: 65%;
+    text-transform: uppercase;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

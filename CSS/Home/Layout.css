@@ -1,0 +1,154 @@
+footer {
+    min-height: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.textfoot {
+    line-height: 1.5em;
+}
+
+header {
+    height: 85px;
+    width: 100%;
+    top: 0;
+}
+
+#violet {
+    height: 85px;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: -85px;
+}
+
+header:hover #violet {
+    top: 0px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+header:target:#violet {
+    top: 0px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.couches {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.couches p {
+    margin: auto;
+}
+
+.couches:hover ~ .couches {
+    flex-shrink: 1;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out;
+}
+
+.couches:hover .icon,
+.couches:hover .cercle {
+    display: block;
+}
+
+.couches:hover {
+    flex: 5;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out;
+}
+
+.couches:target ~ .couches {
+    flex-shrink: 1;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out;
+}
+
+.couches:target {
+    flex: 5;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+}
+
+#wrapper {
+    width: auto;
+    min-height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#holderG {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+#holderD {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transform: scaleX(-1);
+}
+
+p {
+    margin: 10px;
+}
+
+.icon {
+    width: 14%;
+    height: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 24%;
+    bottom: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.couches p {
+    position: absolute;
+    bottom: 8%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.contenerchrome {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+#logo {
+    height: 100%;
+    width: 190px;
+    margin: auto;
+    padding-top: 5px;
+}

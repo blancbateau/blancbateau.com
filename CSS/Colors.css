@@ -1,0 +1,61 @@
+#violet, footer{
+    background-color: #2B0E33;
+    color: #EFF6FA;
+}
+
+header, .mCustomScrollbar{
+    background-color:#EFF6FA; 
+    color: #2B0E33;
+}
+
+body {
+    background-color: #2B0E33;
+}
+
+.textfoot~.textfoot{
+    color: #7BF8DA;
+}
+
+h2{
+    color: #12BEA2;
+}
+
+h4{
+    color:#2B0E33;
+}
+
+#violet h4, h1, h3{
+    color: #EFF6FA;
+}
+
+.minute .banner{
+    color: #7BF8DA;
+}
+
+.chilly .banner{
+    color: #12BEA2;
+}
+
+.typomutation .banner{
+    color: #036254;
+}
+
+.grand .banner{
+    color: #02332C;
+}
+
+.minute, .minute .banner, .minute .cover{
+    background-color: #7BF8DA;
+}
+
+.chilly, .chilly .cover, .chilly .banner{
+    background-color: #12BEA2;
+}
+
+.typomutation, .typomutation .banner, .typomutation .cover{
+    background-color: #036254;
+}
+
+.grand, .grand .banner, .grand .cover{
+    background-color: #02332C ;
+}

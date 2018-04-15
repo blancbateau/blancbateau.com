@@ -1,0 +1,83 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Canvas', 'Helvetica', 'Arial', serif;
+    font-size: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.textfoot ~ .textfoot {
+    font-family: 'Spectral';
+    font-size: 0.89em;
+    line-height: 0.7em
+}
+
+article {
+    /*border-radius:20px;*/
+    -ms-overflow-style: none;
+    /*IE 10+*/
+    /*overflow: -moz-scrollbars-none;  Firefox*/
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cercle {
+    border-color: #EFF6FA;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 4px;
+    opacity: 0.5;
+    position: relative;
+    width: 14%;
+    display: none;
+    margin: auto;
+    top: 20%;
+}
+
+.couches p {
+    text-transform: uppercase;
+    font-size: 1.32em;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+h4 {
+    font-family: 'Canvas', 'Helvetica', 'Arial', monospace;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+header {
+    font-family: 'Coves', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.3em;
+}
+
+#shape,
+#home {
+
+    position: absolute;
+    font-size: 1em;
+    top: 25%;
+}
+
+#shape {
+    right: 65%;
+}
+
+#home {
+    left: 70%;
+    text-transform: uppercase;
+}
