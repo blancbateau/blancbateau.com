@@ -1,98 +1,92 @@
 footer {
-	min-height: 30px;
-	width: 100%;
+    min-height: 30px;
+    width: 100%;
     padding: 10px;
 }
 
 header {
-	min-height: 50px;
-	width: 100%;
-	top: 0;
+    min-height: 50px;
+    width: 100%;
+    top: 0;
     text-align: center;
 }
 
 #violet {
-	height: 60px;
-width: 100%;
-	position: absolute;
-	left: 0;
-	top: -60px;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -60px;
 }
 
 header:hover #violet {
-	top: 0px;
-	transition-duration: 0.3s;
-	transition-timing-function: ease-out;
+    top: 0px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 }
 
 
 body {
-	height: 100vh;
-	box-sizing: border-box;
-	display: flex;
-	flex-flow: column;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
     overflow: hidden;
 }
 
 #wrapper {
-	width: auto;
+    width: auto;
     flex-grow: 1;
-	overflow:hidden;
+    overflow: hidden;
     display: flex;
 }
 
-#holderG{
+#holderG {
     position: absolute;
     top: 0;
     left: 0px;
-    }
+}
 
-#holderD{
+#holderD {
     position: absolute;
     top: 0;
     right: 0px;
     transform: scaleX(-1);
 }
 
-.mCustomScrollbar{
+.mCustomScrollbar {
     max-width: 75%;
     margin: 10px auto 0 auto;
     flex-grow: 1;
     overflow-y: scroll;
 }
- 
+
 p {
     margin: 20px 3% 20px 3%;
 }
 
-h1{
+h1 {
     margin-top: 0px;
     margin-bottom: 15px;
 }
 
-h2{
+h2 {
     margin: 30px 3% 10px 3%;
 }
 
-h4{
+h4 {
     margin-top: 10px;
 }
 
-footer p{
+footer p {
     margin: 0px;
 }
 
-.textfoot{
+.textfoot {
     line-height: 1.5em;
 }
 
-
-.logo{
-    max-height: 40px;
-    width: 90px;
-}
-
-.banner{
+.banner {
     padding-top: 40px;
     padding-bottom: 25px;
     margin: 0;

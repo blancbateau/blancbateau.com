@@ -127,7 +127,7 @@ img {
     width: 100%;
 }
 
-.couches p {
+li p {
     position: absolute;
     bottom: 8%;
     margin: auto;

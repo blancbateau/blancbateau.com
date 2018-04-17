@@ -1,5 +1,6 @@
 html {
     font-size: 100%;
+    -ms-overflow-style: none;
 }
 
 body {
@@ -21,13 +22,6 @@ footer {
     line-height: 0.7em
 }
 
-article {
-    /*border-radius:20px;*/
-    -ms-overflow-style: none;
-    /*IE 10+*/
-    /*overflow: -moz-scrollbars-none;  Firefox*/
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -45,7 +39,7 @@ article {
     top: 20%;
 }
 
-.couches p {
+li p {
     text-transform: uppercase;
     font-size: 1.32em;
 }
@@ -80,4 +74,26 @@ header {
 #home {
     left: 70%;
     text-transform: uppercase;
+}
+
+
+@media screen and (max-width:600px),
+@media handheld {
+    #holderG,
+    #holderD {
+        display: none;
+    }
+    #home {
+        left: 78%;
+        margin: 1em;
+    }
+    #violet {
+        font-size: 0.7em;
+    }
+    li {
+        font-size: 0.7em;
+    }
+    .icon{
+        width: 27%;
+    }
 }

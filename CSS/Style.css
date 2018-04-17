@@ -42,7 +42,7 @@ footer {
     text-align: center;
 }
 
-.textfoot~.textfoot{
+.textfoot ~ .textfoot {
     font-family: 'Spectral';
     font-size: 0.89em;
     line-height: 0.7em
@@ -63,11 +63,11 @@ img {
     max-width: 100%;
 }
 
-.cover img{
+.cover img {
     width: 100%;
 }
 
-.fleche{
+.fleche {
     opacity: 0.7;
     position: relative;
     bottom: 20px;
@@ -98,7 +98,53 @@ a:hover {
     opacity: 0.6;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (min-width:960px) {
+    article p {
+        font-size: 115%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    article p {
+        font-size: 125%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .mCustomScrollbar {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width:600px),
+@media handheld {
+    #holderG,
+    #holderD {
+        display: none;
+    }
+    .mCustomScrollbar {
+        max-width: 95%;
+        margin: 0 auto 0 auto;
+    }
+
+    #retour {
+        font-size: 0.8em;
+        margin: 1em;
+        right: 78%;
+    }
+
+    #titre {
+        left: 80%;
+        font-size: 0.5em;
+        margin: 1em;
+    }
+    #violet {
+        height: 50px;
+        top: -50px;
+    }
 }
