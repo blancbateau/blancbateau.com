@@ -65,6 +65,12 @@ img {
 
 .cover img {
     width: 100%;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+    mix-blend-mode:multiply;
 }
 
 .fleche {
@@ -103,16 +109,29 @@ a {
     color: inherit;
 }
 
+.mCustomScrollbar p:first-of-type{
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align:justify;
+    opacity: 0.5;
+}
+
 @media screen and (min-width:960px) {
-    article p {
+    .mCustomScrollbar p {
         font-size: 115%;
     }
+        .mCustomScrollbar p:first-of-type{
+    font-size: 1.2em;
+}
 }
 
 @media screen and (min-width:1200px) {
     article p {
         font-size: 125%;
     }
+    .mCustomScrollbar p:first-of-type{
+    font-size: 1.3em;
+}
 }
 
 @media screen and (min-width:1600px) {
