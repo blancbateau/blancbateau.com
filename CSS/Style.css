@@ -45,7 +45,7 @@ footer {
 .textfoot ~ .textfoot {
     font-family: 'Spectral';
     font-size: 0.89em;
-    line-height: 0.7em
+    line-height: 0.7em;
 }
 
 .mCustomScrollbar {
@@ -57,13 +57,14 @@ footer {
     font-weight: 300;
     text-align: left;
     font-size: 1em;
+    line-height: 1.3em;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.videoContainer{
+.videoContainer {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
@@ -73,7 +74,7 @@ img{
 
 .videoContainer iframe,
 .videoContainer object,
-.videoContainer embed{
+.videoContainer embed {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -121,38 +122,92 @@ a {
     color: inherit;
 }
 
-.mCustomScrollbar p:first-of-type{
+.mCustomScrollbar p:first-of-type {
     font-weight: 700;
-    font-size: 1.1em;
-    text-align:justify;
+    font-size: 1.2em;
     opacity: 0.5;
 }
 
+figure.figtitre {
+    float: left;
+    height: 65vh;
+    width: auto;
+    margin: 2em 4em 2em 4em;
+    box-sizing: border-box;
+}
+
+figure.vertical {
+    height: 85vh;
+    width: auto;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+figure.gauche {
+    float: left;
+    height: auto;
+    width: 25%;
+    margin: 1em 2em 1em 4em;
+    box-sizing: border-box;
+}
+
+figure.droite {
+    float: right;
+    margin: 1em 4em 1em 2em;
+    box-sizing: border-box;
+    height: auto;
+    width: 10%;
+}
+
+figure.big {
+    text-align: center;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.typotitre {
+
+    width: auto;
+    height: 100%;
+}
+
 @media screen and (min-width:960px) {
+    .mCustomScrollbar {
+        line-height: 1.6em;
+    }
     .mCustomScrollbar p {
         font-size: 115%;
     }
-        .mCustomScrollbar p:first-of-type{
-    font-size: 1.2em;
-}
+    .mCustomScrollbar p:first-of-type {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width:1200px) {
-    article p {
+    .mCustomScrollbar p {
         font-size: 125%;
     }
-    .mCustomScrollbar p:first-of-type{
-    font-size: 1.3em;
-}
-}
-
-@media screen and (min-width:1600px) {
-    .mCustomScrollbar {
-        max-width: 1200px;
+    .mCustomScrollbar p:first-of-type {
+        font-size: 1.5em;
     }
 }
 
-@media screen and (max-width:600px),
+@media screen and (min-width:1333px) {
+    .mCustomScrollbar {
+        max-width: 1000px;
+    }
+    .mCustomScrollbar p {
+        font-size: 135%;
+    }
+}
+
+@media screen and (max-width:650px),
 @media handheld {
     #holderG,
     #holderD {
@@ -161,6 +216,10 @@ a {
     .mCustomScrollbar {
         max-width: 95%;
         margin: 0 auto 0 auto;
+    }
+
+    .mCustomScrollbar p {
+        margin: 0 3% 0 3%;
     }
 
     #retour {
