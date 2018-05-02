@@ -167,8 +167,8 @@ figure.big {
     width: 100%;
     padding-left: auto;
     padding-right: auto;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .typotitre {
@@ -207,7 +207,7 @@ figure.big {
     }
 }
 
-@media screen and (max-width:650px),
+@media screen and (max-width:620px),
 @media handheld {
     #holderG,
     #holderD {
@@ -219,7 +219,7 @@ figure.big {
     }
 
     .mCustomScrollbar p {
-        margin: 0 3% 0 3%;
+        margin: 20px 3% 20px 3%;
     }
 
     #retour {
@@ -233,8 +233,22 @@ figure.big {
         font-size: 0.5em;
         margin: 1em;
     }
+    
     #violet {
         height: 50px;
         top: -50px;
+    }
+    
+    figure.big{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    figure.figtitre{
+        margin: 1em 1em 1em 1em;
+    }
+    
+    h1{
+        font-size: 1.29em;
     }
 }
