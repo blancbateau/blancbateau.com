@@ -17,6 +17,8 @@ header {
     position: absolute;
     left: 0;
     top: -60px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
 }
 
 header:hover #violet {
@@ -61,11 +63,12 @@ body {
     overflow-y: scroll;
 }
 
-.mCustomScrollbar p {
+.mCustomScrollbar p,
+.mCustomScrollbar ul {
     margin: 40px 8% 60px 8%;
 }
 
-header p{
+header p {
     margin: 20px auto 10px auto;
 }
 
@@ -94,4 +97,9 @@ footer p {
     padding-top: 40px;
     padding-bottom: 25px;
     margin: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
 }

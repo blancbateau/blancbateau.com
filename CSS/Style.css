@@ -64,6 +64,8 @@ img {
     max-width: 100%;
 }
 
+/*Utilisé pour héberger sur Youtube*/
+
 .videoContainer {
     position: relative;
     padding-bottom: 56.25%;
@@ -116,11 +118,15 @@ img {
 
 a:hover {
     opacity: 0.6;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
 
 .mCustomScrollbar p:first-of-type {
@@ -219,7 +225,8 @@ figure.big {
         margin: 0 auto 0 auto;
     }
 
-    .mCustomScrollbar p {
+    .mCustomScrollbar p,
+    .mCustomScrollbar ul {
         margin: 20px 3% 20px 3%;
     }
 
@@ -234,22 +241,22 @@ figure.big {
         font-size: 0.5em;
         margin: 1em;
     }
-    
+
     #violet {
         height: 50px;
         top: -50px;
     }
-    
-    figure.big{
+
+    figure.big {
         margin-top: 0;
         margin-bottom: 0;
     }
-    
-    figure.figtitre{
+
+    figure.figtitre {
         margin: 1em 1em 1em 1em;
     }
-    
-    h1{
+
+    h1 {
         font-size: 1.29em;
     }
 }

@@ -3,10 +3,10 @@ var sketch = function (p) {
     function tail(ypos, units, angle) {
         p.push();
         p.translate(0, ypos);
-        for (i = units * 3; i > 0; i--) {
-            p.strokeWeight(i * 1.5);
-            p.line(0, 0, 10, 0);
-            p.translate(10, 0);
+        for (i = units * 2; i > 0; i--) {
+            p.strokeWeight(i * 0.8);
+            p.line(0, 0, 5, 0);
+            p.translate(5, 0);
             p.rotate(angle);
         }
         p.pop();
@@ -21,22 +21,22 @@ var sketch = function (p) {
     }
 
     p.draw = function () {
-        p.angle = p.sin(p.inc) / 50.0 + p.sin(p.inc) / 20.0;
+        p.angle = p.sin(p.inc) / 50.0 + p.sin(p.inc) / 50.0;
         p.clear();
         for (p.n = p.windowHeight; p.n > 130; p.n -= 60) {
-            tail(p.n, 3, p.angle * 1.4);
+            tail(p.n, 8, p.angle * 1.4);
         }
         for (p.n = p.windowHeight + 20; p.n > 130; p.n -= 60) {
-            tail(p.n, 2.5, p.angle);
+            tail(p.n, 6.5, p.angle);
         }
         for (p.n = p.windowHeight + 40; p.n > 130; p.n -= 60) {
-            tail(p.n, 2, p.angle / 1.2);
+            tail(p.n, 5, p.angle / 1.2);
         }
         p.inc += 0.01;
     }
     p.windowResized = function () {
-		p.resizeCanvas(100, this.windowHeight);
-	}
+        p.resizeCanvas(100, this.windowHeight);
+    }
 }
 
 var myp5_1 = new p5(sketch, 'holderG');
